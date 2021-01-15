@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/pdf"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/pdf"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 func main() {
@@ -47,7 +47,7 @@ func main() {
 		})
 		m.ColSpace(4)
 		m.Col(4, func() {
-			m.QrCode("https://github.com/laofun/maroto-vi-vi", props.Rect{
+			m.QrCode("https://github.com/laofun/maroto-vi", props.Rect{
 				Center:  true,
 				Percent: 75,
 			})
@@ -58,11 +58,11 @@ func main() {
 
 	m.Row(100, func() {
 		m.Col(12, func() {
-			_ = m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			_ = m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Center:  true,
 				Percent: 70,
 			})
-			m.Text("https://github.com/laofun/maroto-vi-vi", props.Text{
+			m.Text("https://github.com/laofun/maroto-vi", props.Text{
 				Size:  20,
 				Align: consts.Center,
 				Top:   65,

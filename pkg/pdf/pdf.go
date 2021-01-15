@@ -3,12 +3,12 @@ package pdf
 import (
 	"bytes"
 
-	"github.com/laofun/maroto-vi-vi/pkg/color"
+	"github.com/laofun/maroto-vi/pkg/color"
 
 	"github.com/jung-kurt/gofpdf"
-	"github.com/laofun/maroto-vi-vi/internal"
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/internal"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 // Maroto is the principal abstraction to create a PDF document.

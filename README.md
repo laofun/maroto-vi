@@ -21,7 +21,7 @@ always when a new page appear, in this case, a header may have many rows, lines 
 ```bash
 go get -u github.com/laofun/maroto-vi
 ```
-Base on [johnfercher/maroto](https://github.com/laofun/maroto-vi-vi)
+Base on [johnfercher/maroto](https://github.com/laofun/maroto-vi)
 
 Add  function Base on [gofpdf](https://github.com/jung-kurt/gofpdf) 
 1. AddUTF8Font to support vietnamese 

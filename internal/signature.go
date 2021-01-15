@@ -2,7 +2,7 @@ package internal
 
 import (
 	"github.com/jung-kurt/gofpdf"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 // Signature is the abstraction which deals of how to add a signature space inside PDF

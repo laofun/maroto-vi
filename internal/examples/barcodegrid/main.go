@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/pdf"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/pdf"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 func main() {
@@ -17,17 +17,17 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(2, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Percent: 75,
 			})
 		})
 		m.Col(6, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Percent: 100,
 			})
 		})
@@ -35,19 +35,19 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(2, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Center:  true,
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Center:  true,
 				Percent: 75,
 			})
 		})
 		m.Col(6, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Center:  true,
 				Percent: 100,
 			})
@@ -56,17 +56,17 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(6, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Percent: 75,
 			})
 		})
 		m.Col(2, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Percent: 100,
 			})
 		})
@@ -74,19 +74,19 @@ func main() {
 
 	m.Row(40, func() {
 		m.Col(6, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Center:  true,
 				Percent: 50,
 			})
 		})
 		m.Col(4, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Center:  true,
 				Percent: 75,
 			})
 		})
 		m.Col(2, func() {
-			m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+			m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 				Center:  true,
 				Percent: 100,
 			})

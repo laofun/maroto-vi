@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/laofun/maroto-vi-vi/internal"
-	"github.com/laofun/maroto-vi-vi/internal/mocks"
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/internal"
+	"github.com/laofun/maroto-vi/internal/mocks"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/props"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

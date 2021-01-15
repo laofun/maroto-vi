@@ -2,7 +2,7 @@ package internal
 
 import (
 	"github.com/jung-kurt/gofpdf"
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/consts"
 )
 
 // Font is the abstraction which deals of how to set font configurations

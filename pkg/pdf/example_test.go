@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/laofun/maroto-vi-vi/pkg/color"
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/pdf"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/color"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/pdf"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 // ExampleNewMaroto demonstrates how to create maroto
@@ -325,7 +325,7 @@ func ExamplePdfMaroto_Barcode() {
 	// Do a lot of things on rows and columns...
 
 	m.Col(12, func() {
-		_ = m.Barcode("https://github.com/laofun/maroto-vi-vi", props.Barcode{
+		_ = m.Barcode("https://github.com/laofun/maroto-vi", props.Barcode{
 			Percent:    75,
 			Proportion: props.Proportion{Width: 50, Height: 10},
 			Center:     true,
@@ -351,7 +351,7 @@ func ExamplePdfMaroto_QrCode() {
 
 	m.Row(rowHeight, func() {
 		m.Col(12, func() {
-			m.QrCode("https://godoc.org/github.com/laofun/maroto-vi-vi", props.Rect{
+			m.QrCode("https://godoc.org/github.com/laofun/maroto-vi", props.Rect{
 				Left:    5,
 				Top:     5,
 				Center:  false,

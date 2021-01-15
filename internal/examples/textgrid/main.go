@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/pdf"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/pdf"
 )
 
 func main() {

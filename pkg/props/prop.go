@@ -1,8 +1,8 @@
 package props
 
 import (
-	"github.com/laofun/maroto-vi-vi/pkg/color"
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/color"
+	"github.com/laofun/maroto-vi/pkg/consts"
 )
 
 // Proportion represents a proportion from a rectangle, example: 16x9, 4x3...

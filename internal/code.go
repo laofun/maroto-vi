@@ -5,7 +5,7 @@ import (
 	"github.com/boombuler/barcode/qr"
 	"github.com/jung-kurt/gofpdf"
 	"github.com/jung-kurt/gofpdf/contrib/barcode"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 // Code is the abstraction which deals of how to add QrCodes or Barcode in a PDF

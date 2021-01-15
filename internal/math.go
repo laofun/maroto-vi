@@ -2,7 +2,7 @@ package internal
 
 import (
 	"github.com/jung-kurt/gofpdf"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 // Math is the abstraction which deals with useful calc

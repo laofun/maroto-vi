@@ -3,8 +3,8 @@ package props_test
 import (
 	"testing"
 
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/props"
 	"github.com/stretchr/testify/assert"
 )
 

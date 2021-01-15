@@ -1,9 +1,9 @@
 package internal
 
 import (
-	"github.com/laofun/maroto-vi-vi/pkg/color"
-	"github.com/laofun/maroto-vi-vi/pkg/consts"
-	"github.com/laofun/maroto-vi-vi/pkg/props"
+	"github.com/laofun/maroto-vi/pkg/color"
+	"github.com/laofun/maroto-vi/pkg/consts"
+	"github.com/laofun/maroto-vi/pkg/props"
 )
 
 // MarotoGridPart is the abstraction to deal with the gris system inside the table list

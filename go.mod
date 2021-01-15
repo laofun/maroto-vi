@@ -1,4 +1,4 @@
-module github.com/laofun/maroto-vi-vi
+module github.com/laofun/maroto-vi
 
 go 1.14
 
