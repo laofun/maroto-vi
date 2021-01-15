@@ -31,7 +31,6 @@ func NewText(pdf gofpdf.Pdf, math Math, font Font) *text {
 
 // Add a text inside a cell.
 func (s *text) Add(text string, cell Cell, textProp props.Text) {
-	translator := s.pdf.UnicodeTranslatorFromDescriptor("")
 	s.font.SetFont(textProp.Family, textProp.Style, textProp.Size)
 
 	// duplicated
@@ -41,8 +40,11 @@ func (s *text) Add(text string, cell Cell, textProp props.Text) {
 	cell.Y += fontHeight
 
 	// Apply Unicode before calc spaces
-	unicodeText := translator(text)
+	// translator := s.pdf.UnicodeTranslatorFromDescriptor("")
+	// unicodeText := translator(text)
 
+	// skip translator unicode
+	unicodeText := text
 	stringWidth := s.pdf.GetStringWidth(unicodeText)
 	words := strings.Split(unicodeText, " ")
 	accumulateOffsetY := 0.0
